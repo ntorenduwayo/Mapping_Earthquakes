@@ -1,23 +1,23 @@
 # Mapping_Earthquakes
 ## Overview of Project
-The purpose of this project is to visually show the tectonic plates of the earth, and the difference between the magnitude of earthquakes all over the world for the last even days.
-To complete the project, we used Leaflet.js (i.e., a JavaScript library for interactive maps) Application Programming Interface (i.e., API), and D3.js (i.e., a JavaScript library for producing dynamic and interactive data visualization in web browsers) to populate a geographical map with GeoJSON earthquake data from the USGS website (i.e., https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson ) to retrieve geographical coordinates and the magnitude of earthquakes, and then added them to a map for a better visualization.
-Finally, we added tectonic plates locations using data retrieved from flaxen GitHub account (i.e., https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json) 
+The purpose of this project is to visually show the tectonic plates of the earth, and the difference between the magnitude of earthquakes all over the world for the last even days. </br>
+To complete the project, we used Leaflet.js (i.e., a JavaScript library for interactive maps) Application Programming Interface (i.e., API), and D3.js (i.e., a JavaScript library for producing dynamic and interactive data visualization in web browsers) to populate a geographical map with GeoJSON earthquake data
+from the USGS website (i.e., https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson ) to retrieve geographical coordinates and the magnitude of earthquakes, and then added them to a map for a better visualization. </br> Finally, we added tectonic plates locations using data retrieved from flaxen GitHub account (i.e., https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json) 
 
 ## Results
 The map of earthquakes around the world, and earth tectonic plates comprises of:
 ### Tiles:
 ![Map tiles](https://user-images.githubusercontent.com/34750363/160291323-d8cafce9-7a31-4e3b-aa85-6d41f576da38.png) </br>
-*	Three different map style buttons:
-  "-"	Street view.
-  **	Satellite view. 
-  **	Dark view.
-*	On/Off button for earthquakes.
-*	On/Off button for Earth’s Tectonic Plates.
-*	On/Off Major earthquakes in the last seven days.
-*	Popup Marker about the location and magnitude of the earthquake.
-*	The size and the color of a Marker relates an earthquake’s strength.
-*	A legend to relay the map information.
+1.	Three different map style buttons: </br>
+  >> Street view. </br>
+  >> Satellite view. </br>
+  >> Dark view. </br>
+2.	On/Off button for earthquakes.
+3.	On/Off button for Earth’s Tectonic Plates.
+4.	On/Off Major earthquakes in the last seven days.
+5.	Popup Marker about the location and magnitude of the earthquake.
+6.	The size and the color of a Marker relates an earthquake’s strength.
+7.	A legend to relay the map information.
 
 ### Earth’s earthquakes
 #### Image 1: Earth’s earthquakes street view </br>
